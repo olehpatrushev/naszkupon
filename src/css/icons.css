@@ -1,0 +1,56 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+.icon-gps {
+    background-image: url("../img/icons/gps.png");
+}
+
+.icon-gps-active {
+    background-image: url("../img/icons/gps-active.png");
+}
+
+.icon-star-light {
+    background-image: url("../img/icons/star-light.png");
+}
+
+.icon-star-active {
+    background-image: url("../img/icons/star-active.png");
+}
+
+.icon-star {
+    background-image: url("../img/icons/star.png");
+}
+
+.icon-cart {
+    background-image: url("../img/icons/cart.png");
+}
+
+.icon-home {
+    background-image: url("../img/icons/home.png");
+}
+
+.icon-letter {
+    background-image: url("../img/icons/letter.png");
+}
+
+.icon-like {
+    background-image: url("../img/icons/like.png");
+}
+
+.icon-views {
+    background-image: url("../img/icons/views.png");
+}
+
+.icon-comments {
+    background-image: url("../img/icons/comments.png");
+}
+
+.icon-reply {
+    background-image: url("../img/icons/reply.png");
+}

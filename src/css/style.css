@@ -1,9 +1,263 @@
-.profile-image {
-    position: absolute;
-    margin-left: 100px;
-    margin-top: -100px;
+html {
+    font-size: 16px;
 }
 
-.name-block {
-    margin-left: 250px;
+* {
+    font-family: Noto Sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600 !important;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.expert-page .profile-image {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 0;
+}
+
+.expert-page .tight-block {
+    padding: 0 100px;
+    position: relative;
+}
+
+.expert-page .header {
+    background: #1E232B;
+}
+
+.expert-page .header .navbar-brand {
+    padding: 0;
+}
+
+.expert-page .breadcrumb {
+    background: none;
+    margin-bottom: 0;
+}
+
+.expert-page .navbar-extended .nav-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert-page .btn {
+    border-radius: 12px !important;
+}
+
+.expert-page .btn.btn-cart {
+    border-radius: 50% !important;
+    background-image: url("../img/icons/cart.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    position: relative;
+    max-width: 33px;
+    max-height: 33px;
+}
+
+.expert-page .btn.btn-cart .counter {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    background: #E6ECF5;
+    width: 1rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    right: 0;
+    bottom: 0;
+}
+
+.expert-page .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.expert-page .breadcrumb .breadcrumb-item * {
+    color: #8B99AD;
+}
+
+.expert-page .breadcrumb .breadcrumb-item.active * {
+    color: #424D5C;
+}
+
+.expert-page .expert-title {
+    color: #329DFF;
+    font-weight: 600;
+}
+
+.expert-page .badge-competency {
+    color: #1E232B;
+    font-weight: 500;
+    padding: 6px 14px;
+    background: #C0F0D0;
+    border-radius: 50px;
+}
+
+.expert-page .profile-tabs {
+    border-top: 1px solid #E6ECF5;
+    border-bottom: 1px solid #E6ECF5;
+}
+
+.expert-page .profile-tabs .nav-link {
+    color: #636F80;
+    font-weight: 600;
+}
+
+.expert-page .profile-tabs .nav-link.active {
+    color: #0A9239;
+    border-bottom: 3px solid #0A9239;
+}
+
+.expert-page .card {
+    border-radius: 12px;
+    position: relative;
+}
+
+.expert-page .btn.btn-favs {
+    border-radius: 50% !important;
+    background-image: url("../img/icons/favs_button.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    right: 13px;
+    top: 13px;
+}
+
+.expert-page .card .time {
+    font-size: 14px;
+}
+
+.expert-page .card .free {
+    font-size: 18px;
+    color: #0A9239;
+    font-weight: 600;
+}
+
+.expert-page .card .price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.expert-page .btn-secondary {
+    color: #fff;
+    background-color: #FF6E1D;
+    border-color: #FF6E1D;
+}
+
+.expert-page .btn-large {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.expert-page .review .username {
+    font-weight: 600;
+}
+
+.expert-page .review .date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636F80;
+}
+
+.expert-page .review .reply {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.expert-page .review .no-answer {
+    color: #636F80;
+}
+
+.expert-page .review .text {
+    font-size: 14px;
+}
+
+.expert-page .review .answer {
+    color: #1E232B;
+    background: #E6ECF5;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 14px;
+
+}
+
+.expert-page .page-link {
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.expert-page .coupon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100px;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+.expert-page .coupon-blue {
+    background-image: url(../img/icons/coupon_blue.png);
+}
+
+.expert-page .coupon-orange {
+    background-image: url(../img/icons/coupon_orange.png);
+}
+
+.expert-page .coupon-red {
+    background-image: url(../img/icons/coupon_red.png);
+}
+
+.expert-page .footer {
+    background: #1D2229;
+    color: #FFF;
+}
+
+.expert-page .footer .card {
+    border: 2px solid #FFECBC;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.expert-page .footer-line {
+    background: #2F3742;
+    color: #fff;
 }
