@@ -4,7 +4,7 @@
     height: 1em;
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 100% auto;
+    background-size: contain;
 }
 
 .icon-gps {
@@ -53,4 +53,8 @@
 
 .icon-reply {
     background-image: url("../img/icons/reply.png");
+}
+
+.icon-user {
+    background-image: url("../img/icons/user.png");
 }

@@ -71,6 +71,32 @@ h1 {
     justify-content: center;
 }
 
+@media (max-width: 1199px) {
+    .expert-page .header .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .expert-page .header .navbar .navbar-brand {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .expert-page .header .navbar .main-menu {
+        order: 1;
+    }
+
+    .expert-page .header .navbar .secondary-menu {
+        order: 2;
+    }
+}
+
+.navbar-expand-xl .navbar-nav.always-show .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
 .expert-page .btn {
     border-radius: 12px !important;
 }
@@ -84,8 +110,6 @@ h1 {
     aspect-ratio: 1 / 1;
     height: 100%;
     position: relative;
-    max-width: 33px;
-    max-height: 33px;
 }
 
 .expert-page .btn.btn-cart .counter {
